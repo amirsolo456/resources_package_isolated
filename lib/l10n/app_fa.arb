@@ -1,0 +1,86 @@
+{
+  "appTitle": "آریان فرانت",
+  "profileTitle": "حساب کاربری",
+  "loginPageTitle": "صفحه ورود",
+  "phoneNumber": "شماره موبایل",
+  "password": "رمز عبور",
+  "passwordForgot": "فراموشی رمز عبور",
+  "passwordRecovery": "تکرار رمز عبور",
+  "passwordValidationNullMsg": "رمز عبور وارد شده درست نمی باشد.",
+  "passwordValidationMsg": "رمز عبور خود را وارد کنید.",
+  "personList": "اشخاص شرکت ها",
+  "userInfo": "مشخصات کاربری",
+  "userPasswordChange": "تغییر رمز عبور",
+  "usernameValidationNullMsg": "نام کاربر یافت نشد!",
+  "userWallet": "کیف پول",
+  "userSettings": "تنظیمات حساب",
+  "userOtherAccounts": "حساب های دیگر",
+  "usersTitle": "عنوان حساب",
+  "usersDevices": "دستگاه های من",
+  "usersSignOut": "خروج از حساب کاربری",
+  "loginButtonText": "ورود",
+  "loginButtonLoadingText": "لطفا صبر کنید",
+  "loginButtonSignUpText": "ایجاد حساب",
+  "loginButtonOtpText": "تایید و ادامه",
+  "loginFailed": "ورود ناموفق",
+  "transferring": "در حال انتقال...",
+  "addNew": "اضافه کردن",
+  "menu": "منو",
+  "opened": "باز شده ها",
+  "defaults": "پیش فرض ها",
+  "profile": "حساب کاربری",
+  "dashboard": "داشبورد",
+  "rial": "ریال",
+  "languagesDisplayName": "",
+  "@languagesDisplayName": {
+    "description": "فارسی",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "فارسی"
+      }
+    }
+  },
+  "@languagesDisplayName": {
+    "description": "English",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "English"
+      }
+    }
+  },
+  "userSignupLabel": "شما در هیچ حسابی عضویت ندارید.\nاگر صاحب یا نماینده یک کسب و کار هستید، میتوانید یک حساب برای [b]کاربر اصلی[/b] یا [b]ادمین شرکت[/b] خودتان بسازید !\nاگر از پرسنل یک کسب و کار هستید، منتظر دریافت دعوتنامه بمانید.",
+  "userInvitationLabel": "شخصی با نام [b][نام و نام خانوادگی فرد دعوت کننده][/b] شما را به حساب کاربری [b][نام یا شناسه اکانت/سازمان][/b] دعوت کرده است.\nآیا مایل به تأیید این دعوت و پیوستن به این حساب هستید؟",
+  "userOtpValidationTitle": "کد 4رقمی به شماره [5458 202 0912] ارسال شد.",
+  "loginError": "خطا در ورود",
+  "loginLoadingText": "درحال بررسی ...",
+  "loginProcessingText": "درحال پردازش ...",
+  "loginIncorrectUserOrPass": "نام کاربری یا رمز عبور نادرست است.",
+  "serverConnectionError": "خطا در برقراری ارتباط با سرور.",
+  "untilSendOtpCodeAgain": " تادرخواست مجدد کد ",
+  "sendOtpCodeAgain": " درخواست مجدد کد ",
+  "features": "",
+  "@features": {
+    "feature1": "مدیریت کامل حساب کاربری",
+    "feature2": "دسترسی به تمامی امکانات سیستم",
+    "feature3": "پشتیبانی ۲۴ ساعته",
+    "feature4": "امنیت بالا و حریم خصوصی"
+  },
+  "backToLogin": "بازگشت به صفحه ورود",
+  "recoverySecurityNotice": "نکات امنیتی",
+  "recoveryPasswordErrors": "",
+  "@recoveryPasswordErrors": {
+    "error1": "رمز عبور جدید را وارد کنید.",
+    "error2": "تکرار عبور جدید را وارد کنید.",
+    "error3": "رمز عبور وارد شده به اندازه کافی قوی نمی باشد."
+  },
+  "charErrors": "",
+  "@charErrors": {
+    "charErrors1": "رمز عبور باید حداقل 6 کاراکتر باشد.",
+    "charErrors2": "رمز عبور باید شامل حروف باشد.",
+    "charErrors3": "رمز عبور باید شامل عدد باشد.",
+    "charErrors4": "از کاراکتر های خاص استفاده کنید."
+  },
+  "confirmPasswordNotMatch": "رمز عبور جدید با تکرار آن برابر نمی باشد."
+}

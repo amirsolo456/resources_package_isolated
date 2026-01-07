@@ -1,0 +1,86 @@
+{
+  "appTitle": "Aryan Front",
+  "profileTitle": "Profile",
+  "loginPageTitle": "Login Page",
+  "phoneNumber": "Phone Number",
+  "password": "Password",
+  "passwordValidationNullMsg": "Password is required",
+  "passwordValidationMsg": "Password is NotValid",
+  "passwordForgot": "Password Forgot",
+  "passwordRecovery": "Repeat Password",
+  "personList": "Person List",
+  "userInfo": "User Info",
+  "userPasswordChange": "User Password Change",
+  "usernameValidationNullMsg": "User Not Found!",
+  "userWallet": "User Wallet",
+  "userSettings": "User Settings",
+  "userOtherAccounts": "Other Accounts",
+  "usersTitle": "Account Title",
+  "usersDevices": "My Devices",
+  "usersSignOut": "Sign Out From Account",
+  "loginButtonText": "Login",
+  "loginButtonSignUpText": "Create Account",
+  "loginButtonOtpText": "Confirm and Continue",
+  "loginButtonLoadingText": "Please Waite ...",
+  "loginFailed": "Login Failed",
+  "transferring": "Transferring...",
+  "menu": "Menu",
+  "addNew": "Add New",
+  "opened": "Opened",
+  "defaults": "Defaults",
+  "profile": "Profile",
+  "dashboard": "Dashboard",
+  "rial": "Rial",
+  "languagesDisplayName": "",
+  "@languagesDisplayName": {
+    "description": "فارسی",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "فارسی"
+      }
+    }
+  },
+  "@languagesDisplayName": {
+    "description": "English",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "English"
+      }
+    }
+  },
+  "userSignupLabel": "You are not a member of any account.\nIf you are the owner or a representative of a business, you can create an account for your [b]main user[/b] or [b]company admin[/b]!\nIf you are an employee of a business, please wait to receive an invitation.",
+  "userInvitationLabel": "A person named [b][Inviter's Full Name][/b] has invited you to the account [b][Account Name or ID][/b].\nWould you like to accept this invitation and join this account?\n",
+  "userOtpValidationTitle": "A 4-digit code has been sent to the number [0912 202 5458].\n",
+  "loginError": "Exception On Login",
+  "loginLoadingText": "Initializing  ...",
+  "loginProcessingText": "Processing  ...",
+  "loginIncorrectUserOrPass": "Incorrect Username Or Password.",
+  "serverConnectionError": "Server Connection Error",
+  "untilSendOtpCodeAgain": "Until the code is requested again",
+  "sendOtpCodeAgain": "Send code again",
+  "features": "",
+  "@features": {
+    "feature1": "Complete Account Management",
+    "feature2": "Full Access to All System Features",
+    "feature3": "24/7 Support",
+    "feature4": "High Security and Privacy"
+  },
+  "backToLogin": "Back To Login",
+  "recoverySecurityNotice": "Security Notice",
+  "recoveryPasswordErrors": "",
+  "@recoveryPasswordErrors": {
+    "error1": "Please enter a new password.",
+    "error2": "Please re-enter the new password.",
+    "error3": "The entered password is not strong enough."
+  },
+  "charErrors": "",
+  "@charErrors": {
+    "charErrors1": "The password must be at least 6 characters long.",
+    "charErrors2": "The password must be letters.",
+    "charErrors3": "The password must be digits.",
+    "charErrors4": "Use special chars"
+  },
+  "confirmPasswordNotMatch": "Passwords do not match"
+}
