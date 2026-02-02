@@ -3,51 +3,51 @@ import 'package:flutter/material.dart';
 class LightColorTheme {
   static ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
-    scaffoldBackgroundColor: FontColors.aryanWhite,
+    scaffoldBackgroundColor: AppColors.aryanWhite,
 
-    primaryColor: FontColors.primary,
-    hintColor: FontColors.secondary,
+    primaryColor: AppColors.primary,
+    hintColor: AppColors.secondary,
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
-      fillColor: FontColors.aryanTextBackgroundColor,
+      fillColor: AppColors.aryanTextBackgroundColor,
       border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
       enabledBorder: OutlineInputBorder(
         borderSide: BorderSide(
-          color: FontColors.aryanTextBorderColor,
+          color: AppColors.aryanTextBorderColor,
           width: 1,
         ),
         borderRadius: BorderRadius.circular(10),
       ),
       focusedBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: FontColors.darkPrimary, width: 2),
+        borderSide: BorderSide(color: AppColors.darkPrimary, width: 2),
         borderRadius: BorderRadius.circular(10),
       ),
-      hintStyle: TextStyle(color: FontColors.secondary, fontSize: 12),
+      hintStyle: TextStyle(color: AppColors.secondary, fontSize: 12),
     ),
 
     textTheme: TextTheme(
-      bodyLarge: TextStyle(color: FontColors.primary, fontSize: 16),
-      bodyMedium: TextStyle(color: FontColors.secondary, fontSize: 14),
-      bodySmall: TextStyle(color: FontColors.aryanWhite, fontSize: 12),
+      bodyLarge: TextStyle(color: AppColors.primary, fontSize: 16),
+      bodyMedium: TextStyle(color: AppColors.secondary, fontSize: 14),
+      bodySmall: TextStyle(color: AppColors.aryanWhite, fontSize: 12),
     ),
 
     appBarTheme: AppBarTheme(
-      backgroundColor: FontColors.aryanWhite,
+      backgroundColor: AppColors.aryanWhite,
       elevation: 0,
       titleTextStyle: TextStyle(
-        color: FontColors.darkPrimary,
+        color: AppColors.darkPrimary,
         fontSize: 18,
         fontWeight: FontWeight.bold,
       ),
-      iconTheme: IconThemeData(color: FontColors.darkPrimary),
+      iconTheme: IconThemeData(color: AppColors.darkPrimary),
     ),
 
-    dividerColor: FontColors.aryanTextBorderColor,
-    cardColor: FontColors.aryanTextBackgroundColor,
+    dividerColor: AppColors.aryanTextBorderColor,
+    cardColor: AppColors.aryanTextBackgroundColor,
   );
 }
 
-class FontColors {
+class AppColors {
   static const Color _primary = Color(0xFF585858);
   static const Color _secondary = Color(0xFF767676);
   static const Color _dark = Color(0xFF050505);
@@ -55,7 +55,7 @@ class FontColors {
   static const Color _aryanTextBorderColor = Color(0xFFCECECE);
   static const Color _aryanTextHintColor = Color(0xFF939393);
   static const Color _white = Color(0XFFFFFFFF);
-  static const Color _cromeWite = Color(0XFFFBFBFB);
+  static const Color _cromeWhite = Color(0XFFFBFBFB);
   static const Color _counterTheme = Color(0XFF333333);
   static const Color _notCounterTheme = Color(0XFFFFFFFF);
   static const Color _linkColor = Color(0XFF086EDC);
@@ -101,7 +101,7 @@ class FontColors {
 
   static Color get darkPrimary => _dark;
 
-  static Color get ordinaryWhite => _cromeWite;
+  static Color get ordinaryWhite => _cromeWhite;
 
   static Color get aryanWhite => _white;
 
