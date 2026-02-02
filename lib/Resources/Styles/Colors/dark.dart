@@ -5,57 +5,57 @@ import '../font_size.dart';
 class DarkColorTheme {
   static ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
-    scaffoldBackgroundColor: FontColors.darkBackground,
-    primaryColor: FontColors.darkTextPrimary,
+    scaffoldBackgroundColor: AppColors.darkBackground,
+    primaryColor: AppColors.darkTextPrimary,
     textTheme: TextTheme(
       bodyLarge: TextStyle(
-        color: FontColors.darkTextPrimary,
+        color: AppColors.darkTextPrimary,
         fontSize: AryanSizes.largeFontSize16,
       ),
       bodyMedium: TextStyle(
-        color: FontColors.darkTextSecondary,
+        color: AppColors.darkTextSecondary,
         fontSize: AryanSizes.mediumFontSize14,
       ),
       bodySmall: TextStyle(
-        color: FontColors.darkTextSecondary,
+        color: AppColors.darkTextSecondary,
         fontSize: AryanSizes.smallFontSize12,
       ),
     ),
 
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
-      fillColor: FontColors.darkSurface,
+      fillColor: AppColors.darkSurface,
 
-      hintStyle: TextStyle(color: FontColors.darkTextSecondary, fontSize: 12),
+      hintStyle: TextStyle(color: AppColors.darkTextSecondary, fontSize: 12),
 
       border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
 
       enabledBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: FontColors.darkBorder, width: 1),
+        borderSide: BorderSide(color: AppColors.darkBorder, width: 1),
       ),
 
       focusedBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: FontColors.darkTextPrimary, width: 2),
+        borderSide: BorderSide(color: AppColors.darkTextPrimary, width: 2),
       ),
     ),
 
     appBarTheme: AppBarTheme(
-      backgroundColor: FontColors.darkSurface,
+      backgroundColor: AppColors.darkSurface,
       elevation: 0,
       titleTextStyle: TextStyle(
-        color: FontColors.darkTextPrimary,
+        color: AppColors.darkTextPrimary,
         fontSize: 18,
         fontWeight: FontWeight.bold,
       ),
-      iconTheme: IconThemeData(color: FontColors.darkTextPrimary),
+      iconTheme: IconThemeData(color: AppColors.darkTextPrimary),
     ),
 
-    dividerColor: FontColors.darkBorder,
-    cardColor: FontColors.darkSurface,
+    dividerColor: AppColors.darkBorder,
+    cardColor: AppColors.darkSurface,
   );
 }
 
-class FontColors {
+class AppColors {
   static const Color _primary = Color(0xFF585858);
   static const Color _secondary = Color(0xFF767676);
   static const Color _dark = Color(0xFF050505);

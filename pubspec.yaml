@@ -12,6 +12,8 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  models_package:
+    path: ../models_package
   intl: ^0.20.1
   localization: ^2.1.1
   persian_fonts: ^1.0.6

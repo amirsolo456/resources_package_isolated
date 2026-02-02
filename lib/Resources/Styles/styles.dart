@@ -4,10 +4,10 @@ import '../Theme/theme_manager.dart';
 import 'font_size.dart';
 
 abstract class AryanText {
-  static ThemeColorsManager get defaultColors =>
-      ThemeColorsManager(ThemeManager.themeMode);
+  static AppColorsManager get defaultColors =>
+      AppColorsManager(AppTheme().themeMode ?? ThemeMode.light);
 
-  static TextStyle primaryStyle([ThemeColorsManager? colors]) {
+  static TextStyle primaryStyle([AppColorsManager? colors]) {
     colors ??= defaultColors;
     return TextStyle(
       fontSize: 24,
@@ -19,7 +19,7 @@ abstract class AryanText {
 
   //Hesaraki Change
 
-  static TextStyle objectStyle([ThemeColorsManager? colors]) {
+  static TextStyle objectStyle([AppColorsManager? colors]) {
     colors ??= defaultColors;
     return TextStyle(
       fontSize: AryanSizes.primaryFontSize14,
@@ -29,7 +29,7 @@ abstract class AryanText {
     );
   }
 
-  static TextStyle subItemStyle([ThemeColorsManager? colors]) {
+  static TextStyle subItemStyle([AppColorsManager? colors]) {
     colors ??= defaultColors;
     return TextStyle(
       fontSize: AryanSizes.subFontSize14,
@@ -39,7 +39,7 @@ abstract class AryanText {
     );
   }
 
-  static TextStyle exitStyle([ThemeColorsManager? colors]) {
+  static TextStyle exitStyle([AppColorsManager? colors]) {
     colors ??= defaultColors;
     return TextStyle(
       fontSize: AryanSizes.subFontSize14,
@@ -51,7 +51,7 @@ abstract class AryanText {
 
   //Hesaraki Change
 
-  static TextStyle primButtonTextStyle([ThemeColorsManager? colors]) {
+  static TextStyle primButtonTextStyle([AppColorsManager? colors]) {
     colors ??= defaultColors;
     return TextStyle(
       fontSize: AryanSizes.primButtonTextFontSize24,
@@ -61,7 +61,7 @@ abstract class AryanText {
     );
   }
 
-  static TextStyle listTitleStyle([ThemeColorsManager? colors]) {
+  static TextStyle listTitleStyle([AppColorsManager? colors]) {
     colors ??= defaultColors;
     return TextStyle(
       fontSize: AryanSizes.listTitleFontSize24,
@@ -70,7 +70,7 @@ abstract class AryanText {
     );
   }
 
-  static TextStyle listContentTitleStyle([ThemeColorsManager? colors]) {
+  static TextStyle listContentTitleStyle([AppColorsManager? colors]) {
     colors ??= defaultColors;
     return TextStyle(
       fontSize: AryanSizes.listContentTitleFontSize24,
@@ -79,7 +79,7 @@ abstract class AryanText {
     );
   }
 
-  static TextStyle listContentStyle([ThemeColorsManager? colors]) {
+  static TextStyle listContentStyle([AppColorsManager? colors]) {
     colors ??= defaultColors;
     return TextStyle(
       fontSize: AryanSizes.darkTextStyleFontSize24,
@@ -89,7 +89,7 @@ abstract class AryanText {
     );
   }
 
-  static TextStyle darkStyle([ThemeColorsManager? colors]) {
+  static TextStyle darkStyle([AppColorsManager? colors]) {
     colors ??= defaultColors;
     return TextStyle(
       fontSize: AryanSizes.darkTextStyleFontSize24,
@@ -99,7 +99,7 @@ abstract class AryanText {
     );
   }
 
-  static TextStyle secondary([ThemeColorsManager? colors]) {
+  static TextStyle secondary([AppColorsManager? colors]) {
     colors ??= defaultColors;
     return TextStyle(
       fontSize: AryanSizes.listTileFontSize14,
@@ -125,7 +125,7 @@ class aryanSecondaryFormField extends TextFormField {
     super.obscureText,
     bool ignorePointer = true,
     String? hintText,
-    ThemeColorsManager? colors,
+    AppColorsManager? colors,
     InputDecoration? decoration,
     super.inputFormatters,
     super.keyboardType,
@@ -147,7 +147,7 @@ class aryanSecondaryFormField extends TextFormField {
          selectAllOnFocus: true,
          cursorErrorColor: Colors.red,
          cursorHeight: 25,
-         style: AryanText.secondary(ThemeManager.colors),
+         style: AryanText.secondary(AppTheme.colors),
          decoration: decoration ?? aryanSecondaryInputDecoration(),
        );
 }
