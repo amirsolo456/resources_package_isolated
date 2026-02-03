@@ -5,7 +5,7 @@ import 'font_size.dart';
 
 abstract class AryanText {
   static AppColorsManager get defaultColors =>
-      AppColorsManager(AppTheme().themeMode ?? ThemeMode.light);
+      AppColorsManager(AppTheme().themeMode);
 
   static TextStyle primaryStyle([AppColorsManager? colors]) {
     colors ??= defaultColors;

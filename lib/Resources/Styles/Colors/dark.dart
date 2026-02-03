@@ -75,7 +75,6 @@ class AppColors {
   //Hesaraki Changes
 
   static const Color _divider = Color(0XFFB1B1AA);
-  static const Color _test = Color(0XFFB1B1AA);
   static const Color _exitColor = Color(0xFFDC3545);
   static const Color _subColor = Color(0xFFB1B1aa);
   static const Color _borderSelectNavIcon = Color(0xfff36666);

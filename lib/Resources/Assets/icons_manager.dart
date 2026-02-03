@@ -85,48 +85,6 @@ class _AppImages {
 
   // Individual asset paths (match your pubspec.yaml)
 
-  /// All paths (useful for pre-cache or for listing)
-  static const List<String> all = <String>[
-    AryanAssets.account,
-    AryanAssets.activeAccount,
-    AryanAssets.defaults,
-    AryanAssets.activeDefaults,
-    AryanAssets.menu,
-    AryanAssets.activeMenu,
-    AryanAssets.newItem,
-    AryanAssets.activeNew,
-    AryanAssets.opened,
-    AryanAssets.activeOpened,
-    AryanAssets.userInfo,
-    AryanAssets.userDevices,
-    AryanAssets.userSignOut,
-    AryanAssets.userTitle,
-    AryanAssets.userOtherAccounts,
-    AryanAssets.userSettings,
-    AryanAssets.userWallet,
-    AryanAssets.userPasswordChange,
-    AryanAssets.sort,
-    AryanAssets.filterNone,
-    AryanAssets.filterSigning,
-    AryanAssets.refresh,
-    AryanAssets.futures,
-    AryanAssets.more,
-    AryanAssets.paginationRight,
-    AryanAssets.paginationLeft,
-    AryanAssets.add,
-    AryanAssets.aryanApp,
-    AryanAssets.langIcon,
-    AryanAssets.eyesClose,
-    AryanAssets.eyesOpen,
-    AryanAssets.smallGoCaret,
-    AryanAssets.smallGoCaretRtl,
-    AryanAssets.defaultImage,
-    AryanAssets.defaultImage256Px,
-    AryanAssets.errorIcon,
-    AryanAssets.successIcon,
-    AryanAssets.infoIcon,
-    AryanAssets.questionBoxIcon,
-  ];
 
   /// Map keyed by simple name (helps dynamic lookup)
   static final Map<String, String> byKey = <String, String>{

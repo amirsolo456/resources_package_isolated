@@ -50,14 +50,15 @@ flutter:
   assets:
     - assets/images/account.png
     - assets/images/activeaccount.png
+    - assets/images/arrow_back.png
     - assets/images/defaults.png
     - assets/images/activedefaults.png
     - assets/images/menu.png
     - assets/images/activemenu.png
     - assets/images/new.png
     - assets/images/money.png
-    - assets/images/Cash Out.png
-    - assets/images/Calendar.png
+    - assets/images/cash_out.png
+    - assets/images/calendar.png
     - assets/images/Buildings.png
     - assets/images/activenew.png
     - assets/images/opened.png
@@ -91,8 +92,9 @@ flutter:
     - assets/images/info_icon.png
     - assets/images/error_icon.png
     - assets/images/question_box_icon.png
-    - assets/images/Close.png
+    - assets/images/close.png
     - assets/images/pluse.png
+    - assets/images/chat.png
 
 
   generate: true
