@@ -18,13 +18,12 @@ final class AryanAssets {
   static const String userDevices = 'assets/images/user_devices.png';
   static const String userSignOut = 'assets/images/user_sign_out.png';
   static const String userTitle = 'assets/images/user_title.png';
-  static const String userOtherAccounts =
-      'assets/images/user_other_accounts.png';
+  static const String userOtherAccounts = 'assets/images/user_other_accounts.png';
   static const String userSettings = 'assets/images/user_settings.png';
   static const String userWallet = 'assets/images/user_wallet.png';
-  static const String userPasswordChange =
-      'assets/images/user_password_change.png';
+  static const String userPasswordChange = 'assets/images/user_password_change.png';
   static const String sort = 'assets/images/sort.png';
+  static const String chat = 'assets/images/chat.png';
   static const String filterNone = 'assets/images/filternone.png';
   static const String filterSigning = 'assets/images/filtersigning.png';
   static const String refresh = 'assets/images/refresh.png';
@@ -35,9 +34,9 @@ final class AryanAssets {
   static const String add = 'assets/images/add.png';
   static const String aryanApp = 'assets/images/aryan_app.png';
   static const String langIcon = 'assets/images/lang_icon.png';
-  static const String buildingsIcon = 'assets/images/Buildings.png';
-  static const String calendarIcon = 'assets/images/Calendar.png';
-  static const String cashOutIcon = 'assets/images/Cash Out.png';
+  static const String buildingsIcon = 'assets/images/buildings.png';
+  static const String calendarIcon = 'assets/images/calendar.png';
+  static const String cashOutIcon = 'assets/images/cash_out.png';
   static const String moneyIcon = 'assets/images/money.png';
   static const String eyesClose = 'assets/images/eyes_close.png';
   static const String eyesOpen = 'assets/images/eyes_open.png';
@@ -48,6 +47,5 @@ final class AryanAssets {
   static const String errorIcon = 'assets/images/error_icon.png';
   static const String questionBoxIcon = 'assets/images/question_box_icon.png';
   static const String defaultImage = 'assets/images/aryan_image_error.png';
-  static const String defaultImage256Px =
-      'assets/images/aryan_image_error_256px.png';
+  static const String defaultImage256Px = 'assets/images/aryan_image_error_256px.png';
 }
