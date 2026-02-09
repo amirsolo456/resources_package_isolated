@@ -11,18 +11,27 @@ class AppTheme {
   final Color primaryColor;
   final Color secondaryColor;
   final Locale localMode;
-  static final ValueNotifier<ThemeMode> mode = ValueNotifier<ThemeMode>(ThemeMode.light);
+
+  Locale get getLocalize => local.value;
+  static final ValueNotifier<ThemeMode> mode = ValueNotifier<ThemeMode>(
+    ThemeMode.light,
+  );
+  static final ValueNotifier<Locale> local = ValueNotifier<Locale>(
+    Locale('fa'),
+  );
 
   AppTheme({
     this.primaryColor = Colors.blue,
     this.secondaryColor = Colors.green,
-    this.localMode = const Locale('fa'),
+    required this.localMode,
     this.themeMode = ThemeMode.light,
-  });
+  }) {
+    local.value = localMode;
+  }
 
   // تغییر اسم ValueNotifier از 'mode' به 'themeModeNotifier'
   static final ValueNotifier<ThemeMode> themeModeNotifier =
-  ValueNotifier<ThemeMode>(ThemeMode.light);
+      ValueNotifier<ThemeMode>(ThemeMode.light);
 
   factory AppTheme.dark() => AppTheme(
     themeMode: ThemeMode.dark,
@@ -51,7 +60,8 @@ class AppTheme {
     );
   }
 
-  static AppColorsManager get colors => AppColorsManager(themeModeNotifier.value);
+  static AppColorsManager get colors =>
+      AppColorsManager(themeModeNotifier.value);
 
   static Future<void> setTheme(ThemeMode newMode, {bool persist = true}) async {
     themeModeNotifier.value = newMode;
@@ -67,7 +77,6 @@ class AppTheme {
       );
     }
   }
-
 
   bool get isRtlByLocalize => (localMode.languageCode == 'fa');
 
@@ -90,7 +99,6 @@ class AppTheme {
       mode.value = fallback;
     }
   }
-
 
   // static Future<void> setTheme(ThemeMode newMode, {bool persist = true}) async {
   //   mode.value = newMode;
@@ -195,16 +203,16 @@ class AppTheme {
     );
   }
 
-// static IconData get currentThemeIcon {
-//   switch (themeMode) {
-//     case ThemeMode.light:
-//       return Icons.dark_mode;
-//     case ThemeMode.dark:
-//       return Icons.light_mode;
-//     case ThemeMode.system:
-//       return Icons.brightness_auto;
-//   }
-// }
+  // static IconData get currentThemeIcon {
+  //   switch (themeMode) {
+  //     case ThemeMode.light:
+  //       return Icons.dark_mode;
+  //     case ThemeMode.dark:
+  //       return Icons.light_mode;
+  //     case ThemeMode.system:
+  //       return Icons.brightness_auto;
+  //   }
+  // }
 }
 
 class AppColorsManager {
@@ -229,9 +237,9 @@ class AppColorsManager {
   }
 
   AppColorsManager.fromBrightness(Brightness brightness)
-      : themeMode = brightness == Brightness.dark
-      ? ThemeMode.dark
-      : ThemeMode.light;
+    : themeMode = brightness == Brightness.dark
+          ? ThemeMode.dark
+          : ThemeMode.light;
 
   ThemeData get aryanTheme =>
       isDark ? dark.DarkColorTheme.darkTheme : light.LightColorTheme.lightTheme;
@@ -239,33 +247,28 @@ class AppColorsManager {
   Color get darkPrimary =>
       isDark ? dark.AppColors.darkPrimary : light.AppColors.darkPrimary;
 
-  Color get hintColor =>
-      isDark
-          ? dark.AppColors.aryanTextHintColor
-          : light.AppColors.aryanTextHintColor;
+  Color get hintColor => isDark
+      ? dark.AppColors.aryanTextHintColor
+      : light.AppColors.aryanTextHintColor;
 
   Color get aryanText =>
       isDark ? dark.AppColors.aryanText : light.AppColors.aryanText;
 
-  Color get listTitlePrimary =>
-      isDark
-          ? dark.AppColors.listTitlePrimary
-          : light.AppColors.listTitlePrimary;
+  Color get listTitlePrimary => isDark
+      ? dark.AppColors.listTitlePrimary
+      : light.AppColors.listTitlePrimary;
 
-  Color get listContentTitlePrimary =>
-      isDark
-          ? dark.AppColors.listContentTitlePrimary
-          : light.AppColors.listContentTitlePrimary;
+  Color get listContentTitlePrimary => isDark
+      ? dark.AppColors.listContentTitlePrimary
+      : light.AppColors.listContentTitlePrimary;
 
-  Color get listContentPrimary =>
-      isDark
-          ? dark.AppColors.listContentSecondary
-          : light.AppColors.listContentSecondary;
+  Color get listContentPrimary => isDark
+      ? dark.AppColors.listContentSecondary
+      : light.AppColors.listContentSecondary;
 
-  Color get aryanBorder =>
-      isDark
-          ? dark.AppColors.aryanTextBorderColor
-          : light.AppColors.aryanTextBorderColor;
+  Color get aryanBorder => isDark
+      ? dark.AppColors.aryanTextBorderColor
+      : light.AppColors.aryanTextBorderColor;
 
   Color get aryanDarkBorder =>
       isDark ? dark.AppColors.darkBorder : light.AppColors.darkBorder;
@@ -288,7 +291,5 @@ class AppColorsManager {
       isDark ? dark.AppColors.counterTheme : light.AppColors.counterTheme;
 
   Color get themNotCounterColor =>
-      isDark
-          ? dark.AppColors.notCounterTheme
-          : light.AppColors.notCounterTheme;
+      isDark ? dark.AppColors.notCounterTheme : light.AppColors.notCounterTheme;
 }

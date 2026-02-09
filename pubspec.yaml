@@ -59,7 +59,7 @@ flutter:
     - assets/images/money.png
     - assets/images/cash_out.png
     - assets/images/calendar.png
-    - assets/images/Buildings.png
+    - assets/images/buildings.png
     - assets/images/activenew.png
     - assets/images/opened.png
     - assets/images/activeopened.png
@@ -95,6 +95,11 @@ flutter:
     - assets/images/close.png
     - assets/images/pluse.png
     - assets/images/chat.png
+    - assets/images/menu_en.png
+    - assets/images/new_en.png
+    - assets/images/default_en_selected.png
+    - assets/images/opened_en.png
+    - assets/images/account_en.png
 
 
   generate: true
