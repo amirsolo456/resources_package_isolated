@@ -5,6 +5,7 @@ final class AryanAssets {
   static const String yekan = 'Yekan';
 
   static const String account = 'assets/images/account.png';
+  static const String save = 'assets/images/save.png';
   static const String activeAccount = 'assets/images/activeaccount.png';
   static const String defaults = 'assets/images/defaults.png';
   static const String activeDefaults = 'assets/images/activedefaults.png';

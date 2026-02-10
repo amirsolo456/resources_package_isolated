@@ -66,6 +66,7 @@ flutter:
     - assets/images/userinfo.png
     - assets/images/user_devices.png
     - assets/images/user_sign_out.png
+    - assets/images/save.png
     - assets/images/user_title.png
     - assets/images/user_other_accounts.png
     - assets/images/user_settings.png
