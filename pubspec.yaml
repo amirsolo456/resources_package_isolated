@@ -50,7 +50,6 @@ flutter:
   assets:
     - assets/images/account.png
     - assets/images/activeaccount.png
-    - assets/images/arrow_back.png
     - assets/images/defaults.png
     - assets/images/activedefaults.png
     - assets/images/menu.png
@@ -81,6 +80,7 @@ flutter:
     - assets/images/pagination_right.png
     - assets/images/pagination_left.png
     - assets/images/add.png
+    - assets/images/arrow_back.png
     - assets/images/aryan_app.png
     - assets/images/lang_icon.png
     - assets/images/eyes_close.png

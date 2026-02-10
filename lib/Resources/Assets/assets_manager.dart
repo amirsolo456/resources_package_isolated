@@ -40,6 +40,7 @@ final class AryanAssets {
   static const String calendarIcon = 'assets/images/calendar.png';
   static const String cashOutIcon = 'assets/images/cash_out.png';
   static const String chat = 'assets/images/chat.png';
+  static const String arrowBack = 'assets/images/arrow_back.png';
 
   static const String moneyIcon = 'assets/images/money.png';
   static const String eyesClose = 'assets/images/eyes_close.png';
