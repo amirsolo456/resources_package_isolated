@@ -57,8 +57,9 @@ flutter:
     - assets/images/new.png
     - assets/images/money.png
     - assets/images/cash_out.png
-    - assets/images/Calendar.png
-    - assets/images/Buildings.png
+    - assets/images/save.png
+    - assets/images/calendar.png
+    - assets/images/buildings.png
     - assets/images/activenew.png
     - assets/images/opened.png
     - assets/images/activeopened.png
@@ -70,6 +71,8 @@ flutter:
     - assets/images/user_settings.png
     - assets/images/user_wallet.png
     - assets/images/user_password_change.png
+    - assets/images/arrow_back.png
+    - assets/images/chat.png
     - assets/images/sort.png
     - assets/images/filternone.png
     - assets/images/filtersigning.png
