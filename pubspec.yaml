@@ -57,15 +57,14 @@ flutter:
     - assets/images/new.png
     - assets/images/money.png
     - assets/images/cash_out.png
-    - assets/images/calendar.png
-    - assets/images/buildings.png
+    - assets/images/Calendar.png
+    - assets/images/Buildings.png
     - assets/images/activenew.png
     - assets/images/opened.png
     - assets/images/activeopened.png
     - assets/images/userinfo.png
     - assets/images/user_devices.png
     - assets/images/user_sign_out.png
-    - assets/images/save.png
     - assets/images/user_title.png
     - assets/images/user_other_accounts.png
     - assets/images/user_settings.png
@@ -80,7 +79,6 @@ flutter:
     - assets/images/pagination_right.png
     - assets/images/pagination_left.png
     - assets/images/add.png
-    - assets/images/arrow_back.png
     - assets/images/aryan_app.png
     - assets/images/lang_icon.png
     - assets/images/eyes_close.png
@@ -93,14 +91,8 @@ flutter:
     - assets/images/info_icon.png
     - assets/images/error_icon.png
     - assets/images/question_box_icon.png
-    - assets/images/close.png
+    - assets/images/Close.png
     - assets/images/pluse.png
-    - assets/images/chat.png
-    - assets/images/menu_en.png
-    - assets/images/new_en.png
-    - assets/images/default_en_selected.png
-    - assets/images/opened_en.png
-    - assets/images/account_en.png
 
 
   generate: true
