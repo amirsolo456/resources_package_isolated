@@ -105,6 +105,9 @@ class AppLocalizationsFa extends AppLocalizations {
   String get rial => 'ریال';
 
   @override
+  String get toman => 'تومان';
+
+  @override
   String languagesDisplayName(String userName) {
     return '';
   }

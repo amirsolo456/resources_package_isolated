@@ -287,6 +287,12 @@ abstract class AppLocalizations {
   /// **'Rial'**
   String get rial;
 
+  /// No description provided for @toman.
+  ///
+  /// In en, this message translates to:
+  /// **'Toman'**
+  String get toman;
+
   /// English
   ///
   /// In en, this message translates to:
