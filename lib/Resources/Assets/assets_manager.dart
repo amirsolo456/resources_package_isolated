@@ -28,6 +28,7 @@ final class AryanAssets {
   static const String filterNone = 'assets/images/filternone.png';
   static const String filterSigning = 'assets/images/filtersigning.png';
   static const String refresh = 'assets/images/refresh.png';
+  static const String save = 'assets/images/save.png';
   static const String futures = 'assets/images/futures.png';
   static const String more = 'assets/images/more.png';
   static const String paginationRight = 'assets/images/pagination_right.png';
