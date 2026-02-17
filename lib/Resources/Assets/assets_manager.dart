@@ -5,6 +5,7 @@ final class AryanAssets {
   static const String yekan = 'Yekan';
 
   static const String account = 'assets/images/account.png';
+  static const String save = 'assets/images/save.png';
   static const String activeAccount = 'assets/images/activeaccount.png';
   static const String defaults = 'assets/images/defaults.png';
   static const String activeDefaults = 'assets/images/activedefaults.png';
@@ -28,7 +29,6 @@ final class AryanAssets {
   static const String filterNone = 'assets/images/filternone.png';
   static const String filterSigning = 'assets/images/filtersigning.png';
   static const String refresh = 'assets/images/refresh.png';
-  static const String save = 'assets/images/save.png';
   static const String futures = 'assets/images/futures.png';
   static const String more = 'assets/images/more.png';
   static const String paginationRight = 'assets/images/pagination_right.png';
@@ -40,6 +40,7 @@ final class AryanAssets {
   static const String calendarIcon = 'assets/images/calendar.png';
   static const String cashOutIcon = 'assets/images/cash_out.png';
   static const String chat = 'assets/images/chat.png';
+  static const String arrowBack = 'assets/images/arrow_back.png';
 
   static const String moneyIcon = 'assets/images/money.png';
   static const String eyesClose = 'assets/images/eyes_close.png';
