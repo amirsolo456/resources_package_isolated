@@ -105,12 +105,15 @@ class AppLocalizationsFa extends AppLocalizations {
   String get rial => 'ریال';
 
   @override
+  String get toman => 'تومان';
+
+  @override
   String languagesDisplayName(String userName) {
     return '';
   }
 
   @override
-  String get userSignupLabel => 'شما در هیچ حسابی عضویت ندارید.\nاگر صاحب یا نماینده یک کسب و کار هستید، میتوانید یک حساب\nبرای کسب و کار خودتان بسازید !\nاگر از پرسنل یک کسب و کار هستید، منتظر دریافت دعوتنامه بمانید.';
+  String get userSignupLabel => 'شما در هیچ حسابی عضویت ندارید.\nاگر صاحب یا نماینده یک کسب و کار هستید، میتوانید یک حساب برای [b]کاربر اصلی[/b] یا [b]ادمین شرکت[/b] خودتان بسازید !\nاگر از پرسنل یک کسب و کار هستید، منتظر دریافت دعوتنامه بمانید.';
 
   @override
   String get userInvitationLabel => 'شخصی با نام [b][نام و نام خانوادگی فرد دعوت کننده][/b] شما را به حساب کاربری [b][نام یا شناسه اکانت/سازمان][/b] دعوت کرده است.\nآیا مایل به تأیید این دعوت و پیوستن به این حساب هستید؟';

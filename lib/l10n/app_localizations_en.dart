@@ -105,6 +105,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get rial => 'Rial';
 
   @override
+  String get toman => 'Toman';
+
+  @override
   String languagesDisplayName(String userName) {
     return '';
   }
