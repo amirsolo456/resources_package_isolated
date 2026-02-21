@@ -85,5 +85,8 @@
     "charErrors3": "The password must be digits.",
     "charErrors4": "Use special chars"
   },
-  "confirmPasswordNotMatch": "Passwords do not match"
+  "confirmPasswordNotMatch": "Passwords do not match",
+  "commonErrorMessage": "Internal Error",
+  "noInformationForShow": "There is not Information to Show ..."
+
 }

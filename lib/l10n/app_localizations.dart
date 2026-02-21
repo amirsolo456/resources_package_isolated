@@ -394,6 +394,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Passwords do not match'**
   String get confirmPasswordNotMatch;
+
+  /// No description provided for @commonErrorMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Internal Error'**
+  String get commonErrorMessage;
+
+  /// No description provided for @noInformationForShow.
+  ///
+  /// In en, this message translates to:
+  /// **'There is not Information to Show ...'**
+  String get noInformationForShow;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

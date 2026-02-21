@@ -159,4 +159,10 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get confirmPasswordNotMatch => 'رمز عبور جدید با تکرار آن برابر نمی باشد.';
+
+  @override
+  String get commonErrorMessage => 'خطا در بارگزاری';
+
+  @override
+  String get noInformationForShow => 'داده ای برای نمایش موجود نمی باشد .';
 }
