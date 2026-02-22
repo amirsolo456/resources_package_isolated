@@ -94,8 +94,19 @@ flutter:
     - assets/images/info_icon.png
     - assets/images/error_icon.png
     - assets/images/question_box_icon.png
-    - assets/images/Close.png
+    - assets/images/close.png
     - assets/images/pluse.png
+    - assets/images/chat.png
+    - assets/images/menu_en.png
+    - assets/images/new_en.png
+    - assets/images/default_en_selected.png
+    - assets/images/opened_en.png
+    - assets/images/account_en.png
+    - assets/svgs/features.svg
+    - assets/svgs/more_vert.svg
+    - assets/svgs/alarm.svg
+    - assets/svgs/chat.svg
+    - assets/svgs/arrow_right_back.svg
 
 
   generate: true
