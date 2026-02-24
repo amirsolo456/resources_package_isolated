@@ -52,6 +52,9 @@ class AppColors {
   static const Color _secondary = Color(0xFF767676);
   static const Color _dark = Color(0xFF050505);
   static const Color _aryanTextBackgroundColor = Color(0xFFF4F4F4);
+  // static const Color _aryanScaffoldSpecialColor =  Color.fromRGBO(244, 244, 244, 1);
+   static const Color _aryanScaffoldSpecialColor =  Color(0XFFFFFFFF);
+  static const Color _appBarSpecialColor =   Color(0XFFFFFFFF);
   static const Color _aryanTextBorderColor = Color(0xFFCECECE);
   static const Color _aryanTextHintColor = Color(0xFF939393);
   static const Color _white = Color(0XFFFFFFFF);
@@ -76,7 +79,7 @@ class AppColors {
 
   static Color get borderSelectNavIcon => _borderSelectNavIcon;
 
-  //Hesaraki Changes
+
 
   static Color get primary => _primary;
 
@@ -103,7 +106,8 @@ class AppColors {
   static Color get ordinaryWhite => _cromeWhite;
 
   static Color get aryanWhite => _white;
-
+  static Color get aryanScaffoldSpecialColor => _aryanScaffoldSpecialColor;
+  static Color get aryanAppBarSpecialColor => _appBarSpecialColor;
   static Color get aryanLinkColor => _linkColor;
 
   static Color get counterTheme => _counterTheme;

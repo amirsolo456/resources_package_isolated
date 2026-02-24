@@ -71,6 +71,8 @@ class AppColors {
   static const Color _darkBorder = Color(0xFF3A3A3A);
   static const Color _aryanTextHintColor = Color(0xFF939393);
   static const Color _linkColor = Color(0XFF086EDC);
+  static const Color _aryanScaffoldSpecialColor = _dark;
+  static const Color _appBarSpecialColor = _dark;
 
   //Hesaraki Changes
 
@@ -80,39 +82,56 @@ class AppColors {
   static const Color _borderSelectNavIcon = Color(0xfff36666);
 
   static Color get divider => _divider;
+
   static Color get exit => _exitColor;
+
   static Color get subColor => _subColor;
+
   static Color get borderSelectNavIcon => _borderSelectNavIcon;
 
   //Hesaraki Changes
 
   // Dark getters
   static Color get darkBackground => _darkBackground;
+
   static Color get darkSurface => _darkSurface;
+
   static Color get darkTextPrimary => _darkTextPrimary;
+
   static Color get darkTextSecondary => _darkTextSecondary;
+
   static Color get darkBorder => _darkBorder;
 
   static Color get primary => _primary;
+
   static Color get listTitlePrimary => _primary;
+
   static Color get listContentTitlePrimary => _primary;
 
   static Color get aryanText => _aryanTextBackgroundColor;
+
   static Color get aryanTextHintColor => _aryanTextHintColor;
+
   static Color get aryanTextBackgroundColor => _aryanTextBackgroundColor;
 
   static Color get aryanTextBorderColor => _aryanTextBorderColor;
 
   static Color get secondary => _secondary;
+
   static Color get listContentSecondary => _secondary;
 
   static Color get darkPrimary => _dark;
+
+  static Color get aryanScaffoldSpecialColor => _aryanScaffoldSpecialColor;
+
+  static Color get aryanAppBarSpecialColor => _appBarSpecialColor;
 
   static Color get aryanLinkColor => _linkColor;
 
   static Color get ordinaryWhite => _white;
 
   static Color get counterTheme => _counterTheme;
+
   static Color get notCounterTheme => _notCounterTheme;
 
   static Color get selectNavIcon => _borderSelectNavIcon;

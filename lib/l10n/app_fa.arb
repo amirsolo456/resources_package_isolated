@@ -83,5 +83,7 @@
     "charErrors3": "رمز عبور باید شامل عدد باشد.",
     "charErrors4": "از کاراکتر های خاص استفاده کنید."
   },
-  "confirmPasswordNotMatch": "رمز عبور جدید با تکرار آن برابر نمی باشد."
+  "confirmPasswordNotMatch": "رمز عبور جدید با تکرار آن برابر نمی باشد.",
+  "commonErrorMessage": "خطا در بارگزاری",
+  "noInformationForShow": "داده ای برای نمایش موجود نمی باشد ."
 }

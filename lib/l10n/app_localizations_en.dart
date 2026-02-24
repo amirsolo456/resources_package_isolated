@@ -159,4 +159,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get confirmPasswordNotMatch => 'Passwords do not match';
+
+  @override
+  String get commonErrorMessage => 'Internal Error';
+
+  @override
+  String get noInformationForShow => 'There is not Information to Show ...';
 }
