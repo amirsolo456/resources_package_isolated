@@ -54,7 +54,7 @@ class AppColors {
   static const Color _aryanTextBackgroundColor = Color(0xFFF4F4F4);
   // static const Color _aryanScaffoldSpecialColor =  Color.fromRGBO(244, 244, 244, 1);
    static const Color _aryanScaffoldSpecialColor =  Color(0XFFFFFFFF);
-  static const Color _appBarSpecialColor =   Color(0XFFFFFFFF);
+  static const Color _appBarSpecialColor = Color(0xFFF5F5F5);
   static const Color _aryanTextBorderColor = Color(0xFFCECECE);
   static const Color _aryanTextHintColor = Color(0xFF939393);
   static const Color _white = Color(0XFFFFFFFF);
