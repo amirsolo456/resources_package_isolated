@@ -158,6 +158,8 @@ class AppTheme {
     final Color optionalColor2 = Colors.lightBlueAccent;
     final Color optionalColor3 = Colors.lightGreenAccent;
     final Color optionalColor4 = const Color(0xFFDDDDDD);
+    final Color scaffoldColor = AppColorsManager().aryanScaffoldColor;
+    final Color appBarColor = AppColorsManager().aryanAppBarColor;
 
     // AppColors instance
     final AppColors appColors = AppColors(
@@ -175,6 +177,8 @@ class AppTheme {
       hoverTransparent: hoverTr,
       shadowColors: shadowColors,
       optionalColor4: optionalColor4,
+      scaffoldColor: scaffoldColor,
+      appBarsColor: appBarColor,
     );
 
     final ThemeData base = ThemeData(
@@ -184,15 +188,22 @@ class AppTheme {
       ),
       useMaterial3: true,
       fontFamily: 'Vazirani',
-      scaffoldBackgroundColor: mainBackColors,
+      scaffoldBackgroundColor: scaffoldColor,
       shadowColor: shadowColors,
       focusColor: smallOpaColors,
       hintColor: smallOpaColors,
       hoverColor: hoverTr,
       splashColor: splashTr,
-      // ... بقیه مقادیر قبلی‌ات
       brightness: brightness,
-      // ...
+      appBarTheme: AppBarTheme(
+        backgroundColor: appBarColor,
+        foregroundColor: AppColorsManager().themCounterColor,
+        elevation: 0,
+        scrolledUnderElevation: 0,
+        shadowColor: Colors.transparent,
+        surfaceTintColor: Colors
+            .transparent,
+      ),
     );
 
     return base.copyWith(
@@ -265,6 +276,14 @@ class AppColorsManager {
   Color get listContentPrimary => isDark
       ? dark.AppColors.listContentSecondary
       : light.AppColors.listContentSecondary;
+
+  Color get aryanScaffoldColor => isDark
+      ? dark.AppColors.aryanScaffoldSpecialColor
+      : light.AppColors.aryanScaffoldSpecialColor;
+
+  Color get aryanAppBarColor => isDark
+      ? dark.AppColors.aryanAppBarSpecialColor
+      : light.AppColors.aryanAppBarSpecialColor;
 
   Color get aryanBorder => isDark
       ? dark.AppColors.aryanTextBorderColor
